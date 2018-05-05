@@ -1,0 +1,11 @@
+@font-face {
+ font-family: 'raleway';
+ src:
+   url('raleway.ttf');
+ }
+body{
+	background-color:#596B95;
+}
+ .headingTitle{
+ 	color: white;
+ }
