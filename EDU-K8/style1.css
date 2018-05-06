@@ -1,0 +1,64 @@
+@font-face {
+font-family: 'raleway';
+src:
+  url('raleway.ttf');
+}
+@font-face {
+font-family: 'source-sans-pro';
+src:
+  url('source-sans-pro.ttf');
+}
+body{
+  background-color: #D2DCE7;
+  font-family: 'Raleway', sans-serif;
+}
+.wholepage{
+  background-image: url('World-map.png');
+  background-size: 100% 100%;
+  padding-top: 5%;
+}
+.title{
+  display: inline-block;
+}
+.header{
+  text-align: center;
+  font-family: 'raleway';
+  color: #273050;
+}
+#logo{
+  display: inline-block;
+  float: left;
+}
+h2{
+  margin-top: 0;
+  font-size: 80px;
+}
+h3{
+  font-family: 'source-sans-pro';
+  color:	#8C96A8;
+  font-size: 25px;
+  margin-top: 5%;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+#learning {
+  margin-top: 5%;
+  background-color: #273050;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+  padding-right: 3%;
+  border-radius: 20px;
+  border: none;
+  color: #D2DCE7;
+  text-align: center;
+  display: inline-block;
+  font-size: 23px;
+  font-family: 'source-sans-pro';
+}
+.headings{
+    margin-left: 80px;
+    margin-top : 50px;
+    color : white;
+    font-family: 'raleway';
+}
