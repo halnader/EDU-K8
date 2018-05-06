@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="styleTemplate.css" media="screen">
+	</head>
+	<body>
+		<h1 class="headingTitle">{{header}}</h1>
+		{{#each pageContent}}
+		<div class="grid-container">
+			<div class="grid-item card">
+				<div class="blackBox">
+				</div>
+				<div id="subContainer" class="container">
+					<h4><b>{{this.subTitle}}</b></h4>     
+				</div>
+				  <div class="nextToRight">
+				  	<img src="images/Beginner.png" alt="Beginner" style="width:75%">
+				  </div>
+				  <div class="line">
+					<hr/>
+					<div class=" nextToRightbtn">
+						<form action="video">
+							<input type="submit" class="btnStart" value="START!">
+						</form>
+					</div>
+				  </div>
+			</div>
+		</div>
+		{{/each}}
+		<div>
+			<form action="back">
+				<input type="submit" class="backDiv" value="Back">
+			</form>
+		</div>
+
+	</body>
+</html>

@@ -36,7 +36,7 @@ if not credentials or credentials.invalid:
 http = credentials.authorize(httplib2.Http())
 drive_service = discovery.build('drive', 'v3', http=http)
 
-downloads = dirname(abspath(__file__))
+downloads = dirname(abspath(__file__)) + '\\downloads'
 
 def listFiles(size):
     results = drive_service.files().list(
@@ -78,8 +78,8 @@ if not os.path.exists(downloads):
 items = listFiles(10)
 for x in range(0,6):
     try:
-        #if inFolder(items[x]['name'], downloads):
-        downloadFile(items[x]['id'],downloads + '\\' + items[x]['name'], items[x]['name'])
+        if inFolder(items[x]['name'], downloads):
+            downloadFile(items[x]['id'],downloads + '\\' + items[x]['name'], items[x]['name'])
     except:
         pass
 
