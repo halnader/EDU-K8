@@ -119,3 +119,18 @@ hr {
 .btnTitle{
 	font-size: 2em;
 }
+
+.btnDownload{
+	background-color: white;
+    color: black;
+    border: 2px solid #D6E0F6;
+    margin-left: 80vw;
+    margin-bottom: 3vh;
+    height: 5vh;
+    font-stretch: 1.3em;
+}
+
+.btnDownload:hover {
+    background-color: #D6E0F6; 
+    color: white;
+}
