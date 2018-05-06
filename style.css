@@ -18,7 +18,7 @@ hr {
     border: 0;
     border-top: 1px solid #ccc;
     margin: 1em 0;
-    padding: 0; 
+    padding: 0;
 }
 
  .headingTitle{
@@ -88,7 +88,7 @@ hr {
 }
 
 .btnStart:hover {
-    background-color: #596B95; 
+    background-color: #596B95;
     color: white;
 }
 
@@ -112,7 +112,7 @@ hr {
 }
 
 .backDiv:hover {
-    background-color: #D6E0F6; 
+    background-color: #D6E0F6;
     color: white;
 }
 
@@ -131,6 +131,18 @@ hr {
 }
 
 .btnDownload:hover {
-    background-color: #D6E0F6; 
+    background-color: #D6E0F6;
     color: white;
+}
+.videoText{
+    margin-top: 2vh;
+    font-size: 2em;
+    font-family: 'raleway';
+    margin-left: 33vw;
+}
+.videoText2{
+    margin-top: 2vh;
+    font-size: 2em;
+    font-family: 'raleway';
+    margin-left: 25vw;
 }
